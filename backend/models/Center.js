@@ -1,14 +1,14 @@
 const mongoose = require("mongoose");
 
-const centerSchema = new mongoose.Schema({
+const centreSchema = new mongoose.Schema({
   name: { type: String, required: true },
   location: { type: String, required: true },
   sports: [
     {
-      name: { type: String, required: true },
-      courts: { type: Number, required: true },
+      sport: { type: String, required: true },
+      courts: { type: Number, required: true, min: 1 },
     },
   ],
 });
 
-module.exports = mongoose.model("Center", centerSchema);
+module.exports = mongoose.model("Centre", centreSchema);
