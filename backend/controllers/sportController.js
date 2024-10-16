@@ -1,4 +1,4 @@
-const Sport = require("../models/Sport.js");
+const Sport = require("../models/Sport");
 
 // Create a new sport
 exports.createSport = async (req, res) => {
