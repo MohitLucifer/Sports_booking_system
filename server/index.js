@@ -11,7 +11,7 @@ connectdb();
 
 //middlewares
 // app.use(cors());
-app.use(cors({ origin: "https://admingametheory.netlify.app" }));
+app.use(cors({ origin: "https://clientgametheory1.netlify.app/" }));
 // app.use((req, res, next) => {
 //   res.setHeader(
 //     "Access-Control-Allow-Origin",
