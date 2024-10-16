@@ -1,4 +1,4 @@
-# Sports Booking  (COLLEGE ID : IIT2021059)
+# Sports Booking (COLLEGE ID : IIT2021059)
 
 Sport Booking is a web application built using the MERN stack (MongoDB, Express, React, Node.js) with Tailwind CSS for a sleek user interface. Sport Booking includes an admin panel to manage ground content seamlessly.
 
@@ -49,6 +49,7 @@ Sport Booking is a web application built using the MERN stack (MongoDB, Express,
    git clone https://github.com/your-username/Sports_booking_system.git
    cd Sports_booking_system
    ```
+
 2. **Backend Setup**:
 
    - Navigate to the `backend` folder and install the dependencies:
@@ -66,6 +67,7 @@ Sport Booking is a web application built using the MERN stack (MongoDB, Express,
      ```bash
      npm start
      ```
+
 3. **Frontend Setup**:
 
    - Navigate to the `frontend` folder and install the dependencies:
@@ -132,5 +134,8 @@ Deploy the Node.js backend using **Heroku**, **Railway**, or similar cloud servi
 
 ## Links to Deployed Applications
 
-- **Frontend**: [Frontend Link](https://your-frontend-link.com)
-- **Backend**: [Backend Link](https://your-backend-link.com)
+- **Frontend - admin**: [Frontend Link](https://admingametheory.netlify.app/)
+
+- **Frontend - client**: [Frontend Link](https://clientgametheory1.netlify.app/)
+
+- **Backend**: [Backend Link](https://sports-booking-system-1.onrender.com)
